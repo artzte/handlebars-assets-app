@@ -1,0 +1,37 @@
+
+html, body {
+    margin: 20px;
+}
+
+hr {
+  border-bottom: 1px solid #eee;
+}
+
+.heading p {
+  font-weight: bold;
+}
+
+.red a {
+  color: red;
+}
+.blue a {
+  color: blue;
+}
+.yellow a {
+  color: yellow;
+}
+
+ul.nav {
+  padding: 0;
+  margin: 0;
+}
+
+ul.nav li {
+  float: left;
+  list-style-type: none;
+  padding-right: 1em;
+}
+
+.clear {
+  clear: left;
+}
