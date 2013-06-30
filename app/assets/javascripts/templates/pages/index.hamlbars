@@ -1,0 +1,5 @@
+%h2 Pages
+%ul
+  {{#each page in controller}}
+  %li {{#linkTo 'pages.show' page}} {{page.name}} {{/linkTo}}
+  {{/each}}

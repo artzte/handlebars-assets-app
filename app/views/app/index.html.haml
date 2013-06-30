@@ -1,0 +1,10 @@
+%script(type="text/x-handlebars")
+  %h1 Application
+  %ul.nav
+    %li {{#linkTo 'index'}} Home {{/linkTo}} 
+    %li {{#linkTo 'pages'}} Pages {{/linkTo}}
+  .clear
+  %hr
+  .content
+    {{outlet}}
+  %hr

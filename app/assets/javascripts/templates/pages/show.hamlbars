@@ -1,0 +1,5 @@
+%h2 {{title}}
+%p For sure, {{name}} is a great way to travel.
+%p{bind: {class: 'color'}}
+  %a{_action: 'speak', href: '#'} Speak 
+  {{#linkTo 'pages.edit' this}} Edit {{/linkTo}}
